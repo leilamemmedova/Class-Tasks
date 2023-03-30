@@ -1,0 +1,29 @@
+header{
+    background-color: rgb(36, 34, 34);
+    height: 8vh;
+    padding: 0 5% ;
+    nav{ 
+        ul{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            
+            li{ 
+                padding: 5px 8px;
+                border: 2px solid  transparent;
+                border-radius: 8px;
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(148, 177, 231);
+                }
+
+                a{
+                    font-size: 14px;
+                    color: #fff;
+                
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+* {
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.on {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+
+.on:hover {
+    background-color: rgb(245, 156, 168);
+}
+
+#sec1 {}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: center;
+    padding: 5vh;
+    margin: 2vh;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#learn {
+    border: 2px solid rgb(13, 26, 70);
+    padding: 8px 18px;
+    width: 90px;
+}
+
+.bg-img {
+    background-image: url(Rai.png);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 20px;
+}
+.milky{
+    background-attachment: fixed;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+   
+}
