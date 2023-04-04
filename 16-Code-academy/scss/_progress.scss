@@ -1,0 +1,18 @@
+.relax{
+    background-image: url(../images/relax.png);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .relax-opacity{
+        height: 100%;
+        background-color: rgba($color: #272626, $alpha: .7);
+        h1{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+    }
+}
