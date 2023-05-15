@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 5%;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header .search {
+  position: relative;
+}
+.container .header .search .search-input {
+  padding: 10px;
+}
+.container .header .glass {
+  position: absolute;
+  left: 620px;
+}
+.container .header nav {
+  display: flex;
+}
+.container .header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header nav ul li {
+  padding: 10px;
+}
+.container .header nav ul li i {
+  padding: 8px;
+}/*# sourceMappingURL=main.css.map */

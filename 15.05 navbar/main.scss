@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container{
+    padding: 0 5%;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .search{
+            position: relative;
+            .search-input{
+                padding: 10px;
+            }
+        }
+        .glass{
+            position: absolute;
+            left: 620px;
+        }
+        nav{
+            display: flex;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content:space-between ;
+                li{
+                    padding: 10px;
+                    i{
+                        padding :8px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+
